@@ -31,3 +31,28 @@ To win a grid, you have to win three cells in a row.
 The player can only move in the grid that is highlighted. 
 If the grid is not highlighted, this indicates 'open play' and the player can click on any cells that are available. 
 
+### The Approach
+THE BOARD
+
+Create grid using Javascript with nested for loops. 
+
+1. Create grid (container)
+2. Create grids (within container)
+3. Create cells (within grids)
+
+PLAYER TURN
+
+Each player clicks on a cell to insert an "X" or an "O". 
+
+```let playerTurn = ('X')
+
+const swapTurns = function() {
+  // Swap current player
+  if (playerTurn === 'X') {
+    playerTurn = 'O'; 
+  }  else {
+    playerTurn = 'X'; 
+  }
+};
+
+WINNING COMBINATION
