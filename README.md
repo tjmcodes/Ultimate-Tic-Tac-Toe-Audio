@@ -190,3 +190,4 @@ CHALLENGES:
 
 The alert for 'Game Won' was appearing 8 times. In the `checkBoardWin` function the alerts where nested as part of the if statement. Had the alerts been written outside of this scope it would not have been part of the check where the winning combination was filltering through each of the 8 combinations. 
 
+Being able to add classList to gridIds by concatenating the `'.grids` with `{lastTurn}`  using the DOM, the `console.log(gridId)` would return undefined.  
