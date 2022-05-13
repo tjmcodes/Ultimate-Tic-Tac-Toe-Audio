@@ -20,7 +20,7 @@ const audioMusic = document.querySelector('#music')
 const musicButton = document.querySelector('.musicButton')
 audioMusic.muted = true
 audioMusic.loop = true
-audioMusic.src = 'sounds/Alpha.wav'
+audioMusic.src = 'sounds/Alpha.mp3'
 
 let muted = true
 
